@@ -1,0 +1,35 @@
+.pricing {
+  width: 100%;
+ 
+  background-color: black;
+  color: wheat;
+  flex-direction: column;
+  display: flex;
+  margin-top: 500px;
+  align-items: center;
+  padding: 0;
+}
+
+.card-container {
+  display: grid;
+  flex-direction: column;
+  max-width: 1140px;
+  grid-template-columns: repeat(2,3fr);
+  row-gap: 0px;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  grid-row: 1;
+  margin-bottom: 10px;
+}
+@media screen and(max-width:740px) {
+  .card-container {
+    max-width: 1140px;
+    margin: auto;
+  }
+}
+
+.card h3 {
+  font-size: 2rem;
+  padding: 2 rem;
+}
